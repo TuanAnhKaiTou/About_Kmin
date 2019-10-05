@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Kmin | Giới thiệu</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./css/sidebar.css" />
+
+    <!-- Font Awesome JS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="icon" href="./assets/logo_tab.png" />
+    <style>
+      @keyframes exampleanimation {
+        0% {
+          background-position: 0px;
+        }
+        100% {
+          background-position: 300px;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target="#sidebar" data-offset="0">
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div class="sticky-sidebar">
+          <div class="sidebar-header">
+            <a href="/">
+              <img
+                src="./assets/teacher/logo_kmin_square.png"
+                width="100%"
+                alt=""
+              />
+            </a>
+            <!-- <strong>BS</strong> -->
+          </div>
+
+          <ul class="list-unstyled components" id="top-menu">
+            <li class="active">
+              <a href="#about">
+                <i class="sidebar-icon fas fa-info"></i>
+                <span>Giới thiệu</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact">
+                <i class="sidebar-icon fas fa-phone"></i>
+                <span>Liên Hệ</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#map">
+                <i class="sidebar-icon fas fa-map-marker-alt"></i>
+                <span>Các Cơ Sở</span>
+              </a>
+            </li>
+            <!-- Thịnh -- start -- -->
+            <li>
+              <a href="#team">
+                <i class="sidebar-icon fas fa-users"></i>
+                <span>Đội ngũ</span>
+              </a>
+            </li>
+            <!-- Thịnh end-->
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content">
+        <section
+          class="resume-section p-3 px-lg-5 py-lg-3 d-flex d-column"
+          id="about"
+        >
+          <div class="my-auto">
+            <h1 id="main-title" class="mb-0">
+              Học viện khoa học máy tính
+
+              <span class="text-primary">Kmin</span>
+            </h1>
+            <br />
+
+            <div class="subheading mb-3">
+              <h3>Chắp cánh tài năng công nghệ Việt</h3>
+            </div>
+
+            <p class="lead">
+              Được chính thức thành lập vào tháng 4 năm 2016, Học viện khoa học
+              máy tính Kmin đã không ngừng cải thiện và tạo vị thế công ty trong
+              lĩnh vực lập trình và phát triển ứng dụng. Để có thể là đối tác
+              với các công ty trên khắp thế giới (chủ yếu ở Phần Lan), đội dự án
+              dày dặn kinh nghiệm đã không ngừng cố gắng hoàn thiện năng lực để
+              có thể tạo ra những thành phẩm kết tinh giữa kỹ thuật chuyên
+              nghiệp và nghiệp vụ tiên tiến. Từ đó giúp khách hàng có thể thu
+              được nhiều lợi ích nhất khi tin tưởng Kmin. Với quy mô gồm trên
+              dưới hai mươi lập trình viên, chúng tôi chú trọng vào việc đáp ứng
+              những nhu cầu, mong muốn và ý tưởng của khách hàng để từ đó đưa ra
+              những giải pháp phù hợp nhất.
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.facebook.com/hocvienkmin/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                href="https://www.youtube.com/channel/UCR5-OlQFiUrGQKITs_aGPlA"
+                target="_blank"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="resume-section p-3 px-lg-5 py-lg-3 d-flex d-column"
+          id="contact"
+        >
+          <div class="my-auto">
+            <h2>Liên hệ với chúng tôi qua:</h2>
+
+            <div class="call mb-4">
+              <p>Số điện thoại:</p>
+              <i class="fas fa-phone"></i
+              ><a href="callto:0384004298">
+                <span style="font-weight: bold">+84384</span>004298</a
+              ><br />
+              <i class="fas fa-phone"></i
+              ><a href="callto:0938004298">
+                <span style="font-weight: bold">+84938</span>004298</a
+              >
+            </div>
+
+            <div class="mail mb-4">
+              <p>Email:</p>
+              <i class="far fa-envelope"></i
+              ><a href="mailto:info@kmin.edu.vn"> info@kmin.edu.vn</a>
+            </div>
+
+            <div class="add">
+              <p>Địa chỉ:</p>
+
+              <div class="cs mb-0">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#map"
+                  >Cơ sở 1: 368/29 Lê Hồng Phong, phường 1, quận 10, TPHCM</a
+                >
+              </div>
+              <div class="cs">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#map"
+                  >Cơ sở 2: 186 Đặng Văn Ngữ, phường 14, quận Phú Nhuận,
+                  TPHCM</a
+                >
+              </div>
+              <div class="cs">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#map"
+                  >Cơ sở 3: 860/25A Xô Viết Nghệ Tĩnh, phường 25, quận Bình
+                  Thạnh, TPHCM</a
+                >
+              </div>
+              <div class="cs">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#map"
+                  >Cơ sở 4: 16 Đường số 3, phường Linh Chiểu, quận Thủ Đức,
+                  TPHCM</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="resume-section" id="map">
+          <div class="row m-0">
+            <div class="col-12" style=" height: 100vh">
+              <div id="cs2">
+                <h2>Bản đồ:</h2>
+              </div>
+
+              <div id="google-map" style="width: 100%; height: 400px;"></div>
+
+              <script type="text/javascript">
+                function myMap2() {
+                  var locations = [
+                    [
+                      "<div style='text-align:center'><strong>KMIN #1</strong><br>\
+					                    368/29 Lê Hồng Phong, phường 1, quận 10<br>\
+					<a style='color:blue' href='https://www.google.com/maps/place/368,+393%2F29+L%C3%AA+H%E1%BB%93ng+Phong,+ph%C6%B0%E1%BB%9Dng+2,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.763466,106.6708752,15.36z/data=!4m5!3m4!1s0x31752ee1f2f1b425:0x4c1360716bc16c7!8m2!3d10.763874!4d106.674963'>Get Directions</a></div>",
+                      10.763466,
+                      106.6708752,
+                      1
+                    ],
+
+                    [
+                      "<div style='text-align:center'><strong>KMIN #2</strong><br>\
+					                    186 Đặng Văn Ngữ, phường 14, quận Phú Nhuận<br>\
+                    <a style='color:blue' href='https://www.google.com/maps/place/186+%C4%90%E1%BA%B7ng+V%C4%83n+Ng%E1%BB%AF,+Ph%C6%B0%E1%BB%9Dng+14,+Ph%C3%BA+Nhu%E1%BA%ADn,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7908733,106.6645103,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ed2cd632627:0x1252667a86477fa7!8m2!3d10.790868!4d106.666699'>Get Directions</a></div>",
+                      10.7908733,
+                      106.6645103,
+                      2
+                    ],
+
+                    [
+                      "<div style='text-align:center'><strong>KMIN #3</strong><br>\
+					                    860/25 Xô Viết Nghệ Tĩnh, phường 25, quận Bình Thạnh<br>\
+                    <a style='color:blue' href='https://www.google.com/maps/place/H%E1%BA%BBm+860+X%C3%B4+Vi%E1%BA%BFt+Ngh%E1%BB%87+T%C4%A9nh,+Ph%C6%B0%E1%BB%9Dng+25,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh/@10.8105885,106.7167662,17z/data=!3m1!4b1!4m5!3m4!1s0x3175289f32a1cf25:0xb10df70fd01b4340!8m2!3d10.8105885!4d106.7189549'>Get Directions</a></div>",
+                      10.812724,
+                      106.71695,
+                      3
+                    ],
+
+                    [
+                      "<div style='text-align:center'><strong>KMIN #4</strong><br>\
+					                    16 Đường số 3, phường Linh Chiểu, quận Thủ Đức<br>\
+                    <a style='color:blue' href='https://www.google.com/maps/place/16+%C4%90%C6%B0%E1%BB%9Dng+s%E1%BB%91+3,+Linh+Chi%E1%BB%83u,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.8560514,106.7650384,18.21z/data=!4m5!3m4!1s0x3175279ea586e7c3:0x8e05c7e45c98c57e!8m2!3d10.8558695!4d106.7654466?hl=vi-VN'>Get Directions</a></div>",
+                      10.8560514,
+                      106.7650384,
+                      4
+                    ]
+                  ];
+
+                  var map = new google.maps.Map(
+                    document.getElementById("google-map"),
+                    {
+                      zoom: 13,
+                      center: new google.maps.LatLng(10.78972, 106.698598),
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
+                    }
+                  );
+
+                  var infowindow = new google.maps.InfoWindow();
+
+                  var marker, i;
+
+                  for (i = 0; i < locations.length; i++) {
+                    marker = new google.maps.Marker({
+                      position: new google.maps.LatLng(
+                        locations[i][1],
+                        locations[i][2],
+                        locations[i][3],
+                        locations[i][4]
+                      ),
+                      map: map
+                    });
+
+                    google.maps.event.addListener(
+                      marker,
+                      "click",
+                      (function(marker, i) {
+                        return function() {
+                          infowindow.setContent(locations[i][0]);
+                          infowindow.open(map, marker);
+                        };
+                      })(marker, i)
+                    );
+                  }
+                }
+              </script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxKph_Tt9vaXKb0ooVqAEeU89-_A512H8&callback=myMap2"></script>
+
+              <div class="address text-center">
+                <u>CS1</u>: 368/29 Lê Hồng Phong, phường 1, quận 10, TPHCM
+                <br />
+                <u>CS2</u>: 186 Đặng Văn Ngữ, phường 14, quận Phú Nhuận,TPHCM<br />
+                <u>CS3</u>: 860/25A Xô Viết Nghệ Tĩnh, phường 25, quận Bình
+                Thạnh,TPHCM<br />
+                <u>CS4</u>: 16 Đường số 3, phường Linh Chiểu, quận Thủ Đức,
+                TPHCM
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="team">
+          <div>
+            <p class="text-team text-center">Đội Ngũ Giảng Viên</p>
+            <p class="px-5 text-center">
+              Các giảng viên của chúng tôi là những chuyên gia có nhiều năm kinh
+              nghiệm trong lĩnh vực lập trình và mong muốn chia sẻ các kiến thức
+              và kinh nghiệm của họ cho thế hệ lập trình viên trẻ.
+            </p>
+          </div>
+
+          <div class="owl-carousel owl-theme team">
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/vdbao1.jpg"
+                      alt="Vũ Đình Bảo"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Vũ Đình Bảo
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">PM</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Vũ Đình Bảo" class="myBtn">Info</button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/ntngoc1.jpg"
+                      alt="Nguyễn Thị Ngọc"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Thị Ngọc
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">QA</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Thị Ngọc" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/ashark1.png"
+                      alt="Lê Hồng Phúc"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Lê Hồng Phúc
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">Leader</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Lê Hồng Phúc" class="myBtn">Info</button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/ntthe1.png"
+                      alt="Nguyễn Thanh Thế"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Thanh Thế
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">Leader</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Thanh Thế" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/vcttai1.jpg"
+                      alt="Vũ Công Tấn Tài"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Vũ Công Tấn Tài
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">
+                          Teacher
+                        </div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Vũ Công Tấn Tài" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/hthieu1.jpg"
+                      alt="Hoàng Trung Hiếu"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Hoàng Trung Hiếu
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">
+                          Teacher
+                        </div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Hoàng Trung Hiếu" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/tmthien1.png"
+                      alt="Trương Minh Thiện"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Trương Minh Thiện
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">SA</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Trương Minh Thiện" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/nvcuong1.jpg"
+                      alt="Nguyễn Văn Cường"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Văn Cường
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">
+                          Teacher
+                        </div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Văn Cường" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/nttu1.jpg"
+                      alt="Nguyễn Thanh Tú"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Thanh Tú
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">
+                          Teacher
+                        </div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Thanh Tú" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/tui1.png"
+                      alt="Nguyễn Tuấn Anh"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Tuấn Anh
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">Dev</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Tuấn Anh" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="item my-item">
+              <div class="card-intruction">
+                <figure>
+                  <div class="card my-card">
+                    <img
+                      class="card-img-top"
+                      src="./assets/teacher/thang1.png"
+                      alt="Nguyễn Hữu Thắng"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center text myName">
+                        Nguyễn Hữu Thắng
+                      </div>
+                      <div class="row d-flex m-1">
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                        <div class="col-8 p-1 position text-center">Dev</div>
+                        <div class="col-2 p-0">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="hover-card">
+                      <div
+                        class="show-me d-flex justify-content-center align-items-center"
+                      >
+                        <button value="Nguyễn Hữu Thắng" class="myBtn">
+                          Info
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-detail">
+            <div id="myModal" class="modal">
+              <div class="modal-Content">
+                <span class="close" title="Close">&times;</span>
+                <div class="img-name">
+                  <img id="img" src="" alt="" />
+                  <p id="ten" class="text-primary text-center name"></p>
+                </div>
+                <div class="info-main">
+                  <div class="office">
+                    <p class="letter-info">Chức vụ:</p>
+                    <span
+                      id="off1"
+                      style="color:#fe1717 ; font-weight: bold;"
+                    ></span>
+                    <span
+                      id="off2"
+                      style="color: #ff3390; font-weight: bold;"
+                    ></span>
+                    <span
+                      id="off3"
+                      style="color: #3740f4; font-weight: bold;"
+                    ></span>
+                    <span
+                      id="off4"
+                      style="color: #4ad3d3; font-weight: bold;"
+                    ></span>
+                  </div>
+                  <div class="info-detail">
+                    <p class="letter-info">Thông tin:</p>
+                    <ul id="info"></ul>
+                  </div>
+                  <div class="opinion">
+                    <p class="letter-info">Quote:</p>
+                    <span id="op"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./js/jquery.mixitup.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/myScript.js"></script>
+  </body>
+</html>

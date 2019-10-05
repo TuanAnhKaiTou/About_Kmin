@@ -1,0 +1,574 @@
+*, ::after, ::before {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: utm;
+    letter-spacing: 1px;
+
+}
+
+.nav-bar {
+    background-color: #333;
+    height: 100%;
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar-brand img {
+    width: 70%;
+    border-radius: 50%;
+    background: white;
+    margin: 10px 0;
+    border: 7px solid rgba(51, 51, 51, 0.7);
+}
+
+.nav-item .active a{
+    color: white;
+}
+
+
+.navbar-nav {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.navbar-nav li a {
+    color: white;
+    opacity: 0.5;
+}
+
+.navbar-nav>li:hover a {
+    opacity: 0.8;
+}
+
+.nav-bar .detail li {
+    list-style-type: none;
+}
+
+.nav-bar .detail .detail-dev {
+    font-size: 10px;
+    align-items: self-start;
+}   
+
+.nav-bar .detail .detail-dev li {
+    margin-bottom: 5px;
+}
+
+.nav-bar .detail .detail-dev li a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    padding-left: 20%;
+}
+
+section {
+    min-height: 100vh; /* Cá Mập */
+    width: 80vw;
+    padding: 10px 0;
+}
+
+.my-auto {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    
+}
+
+.navbar-nav  li.active a {
+    color: white;
+    opacity: 1;
+}
+
+.social-icons a { /* Cá Mập */
+    display: inline-flex;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    border-radius: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.social-icons a i {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.social-icons a:hover {
+    background-color: darkgray;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+.google-map {
+    width: 100%;
+    height: 68%;
+    background-color: lightgreen;
+}
+
+.address {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.mail p {
+    font-size: 30px;
+    margin-bottom: 0.2rem;
+}
+
+.mail a, i {
+    color:#333;
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.call p {
+    font-size: 30px;
+    margin-bottom: 0.2rem;
+}
+
+.call a, i {
+    color: #333;
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.add p {
+    font-size: 30px;
+    margin-bottom: 0.2rem;
+}
+
+.add a, i {
+    color: #333;
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.mail:hover a,
+.call a:hover,
+.call a:hover span,
+.cs:hover a {
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(85, 110, 250), rgb(176, 85, 250));
+    opacity: 0.65;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cs1>p, .cs2>p {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*--Thịnh start--*/
+
+/*--Thịnh end--*/
+.text-primary{
+    background: linear-gradient(to right ,#fe1717,#ff3390,#be33ff,#3740f4,#4ad3d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: exampleanimation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@font-face {
+    font-family: utm;
+    src: url(../font/UTM-Avo.ttf);
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0, 0);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+} */
+
+/* -------------------- CÁ MẬP -------------------------- */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: utm;
+    position: relative;
+}
+#sidebar{
+    background:#333;
+}
+.sidebar-header img{
+    width: 100%;
+    border-radius: 50%;
+    background: white;
+    margin: 10px 0;
+    border: 7px solid rgba(51, 51, 51, 0.7);
+}
+#sidebar ul li{
+    transition:all 0.5s;
+}
+#sidebar ul li a{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#sidebar ul li .sidebar-icon{
+    display:none;
+  
+}
+.sticky-sidebar{
+    position: sticky;
+    top:0;
+}
+.sidebar-icon{
+    color:white;
+}
+#sidebar ul li:hover .sidebar-icon{
+    color:black;
+}
+#sidebar .active .sidebar-icon{
+    color:black;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    h3{
+        font-size: 1.35rem;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        font-size: 14px!important;
+        text-align: justify;    
+    }
+    a {
+        font-size: 16px!important;
+    }
+    
+    .subheading {
+        font-size: 1.35rem;
+        text-align: center;
+        margin:0px!important;
+    }
+    #sidebar ul li .sidebar-icon{
+        display:block;
+    }
+    #sidebar li.active{
+        background:white;
+    }
+    #sidebar .components span{
+        display:none;
+    }
+    .sidebar-header img{
+        background:none;
+        border:none;
+        margin:0px;
+        border-radius: 0;
+    }
+    .address{
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .social-icons,#contact p,#contact{
+        
+    text-align: center;
+
+    }
+    #contact p{
+        font-weight: bold;
+    }
+    #google-map{
+        height: 300px!important;
+    }
+}
+/* -------------------- CÁ MẬP --------------------------
+
+/* ------------------- Tuấn Anh ------------------------- */
+
+.owl-carousel {
+    width: 80% !important;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-team {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.team {
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #fafafa;
+}
+
+.margin-top {
+    margin-top: 22.5% !important;
+}
+
+.my-item {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+hr {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.owl-dot:focus, .owl-dot:active {
+    outline: none;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 3;
+    background-color: rgba(51, 51, 51, 0.7);
+    overflow: auto;
+}
+
+.modal-Content {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    margin: 10% auto;
+    width: 50%;
+    border-radius: 5px;
+    animation: zoom 0.6s;
+    overflow: auto;
+}
+
+.close {
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.myName {
+    height: 55px;
+    color: #999;
+}
+
+.img-name {
+    width: 30%;
+    float: left;
+}
+
+.img-name img {
+    width: 100%;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+.img-name .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-main {
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    color: #999;
+}
+
+.letter-info {
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+.office p, .opinion p {
+    display: inline-block;
+}
+
+.position {
+    font-size: 15px;
+}
+
+.office span,
+.info-main ul li,
+.opinion span {
+    font-size: 14.5px;
+}
+
+.info-main ul li {
+    margin: 5px 0;
+}
+
+.font {
+    font-size: 15px;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@media (max-width: 320px) {
+
+    .img-name {
+        margin-top: inherit;
+    }
+
+    .letter-info,
+    .info-detail,
+    .opinion {
+        font-size: 10px !important;
+    }
+
+    .office span, .info-main ul li, .opinion span {
+        font-size: 8px;
+    }
+
+    .position {
+        font-size: 13px;
+    }
+
+    .my-card {
+        height: 50%;
+    }
+
+    .team {
+        margin-top: 40% !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .team {
+        margin-top: 23%;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .img-name {
+        margin-top: inherit;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .modal-Content {
+        width: 90%;
+    }
+}
+
+@media (width: 768px) {
+    .team {
+        margin-top: 0;
+        margin-left: 16%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .font {
+
+    }
+    .text {
+        font-size: 13px;
+    }
+
+    .position {
+        font-size: 11px;
+    }
+
+    .office span, .info-main ul li, .opinion span {
+        font-size: 12px;
+    }
+
+    .myName {
+        height: 40px;
+    }
+}
+/* ----------------- Tuấn Anh ------------------ */
+
+
+/* Thịnh start */
+.hover-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+.hover-card:hover{
+    opacity: 1 !important;
+    z-index: 2 !important;
+    display: block !important;
+    background-color:rgba(51, 51, 51, 0.7);
+    box-shadow: 5px 5px 5px #8b939b;
+    border-radius: 2px;
+}
+.show-me{
+    height: 100%;
+    width: 100%;
+}
+.show-me button{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(85, 110, 250), rgb(176, 85, 250));
+    box-shadow: 0 5px 20px 4px rgba(199, 118, 185, 0);
+    transition: .3s;
+    color: #fff;
+    cursor: pointer;
+}
+.show-me button:hover{
+    background-image: linear-gradient(to right, rgb(196, 139, 241), 
+    rgb(176, 85, 250), rgb(176, 85, 250),rgb(196, 139, 241));
+    box-shadow: 0 12px 15px -6px rgba(122, 59, 117, 0.5);
+    
+}
+
+.show-me button:focus,
+.show-me button:active {
+    outline: none;
+}
+.card-intruction{
+    height: 100%;
+}
+/* Thịnh end */
